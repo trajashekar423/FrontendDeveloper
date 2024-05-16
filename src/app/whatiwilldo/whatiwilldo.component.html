@@ -1,0 +1,26 @@
+<div class="container mt-4">
+    <div class="row">
+        <div class="col">
+            <h5 class="fw-bold">What I Do</h5>
+            <hr/>
+
+        </div>
+        
+
+</div>
+<div class="row justify-content-center">
+    <div class="col-md-4 mb-3" *ngFor="let cardData of cardData">
+        <div class="card">
+            <img src="{{cardData.imageUrl}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">{{cardData.title}}</h5>
+              <p class="card-text">{{cardData.description}}</p>
+             
+             
+            </div>
+          </div>
+
+    </div>
+
+</div>
+</div>
