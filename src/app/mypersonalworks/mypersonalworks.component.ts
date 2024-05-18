@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
 export class MypersonalworksComponent {
 
   cards = [
-    { title: 'Nextjs/Redux', content: 'Content for Card 1' },
+    { title: 'Nextjs/Redux', content: 'My first Nextjs Project with Reduxtoolkit store demo',url:"https://nextjsreduxstore-demo.vercel.app/",logo:"assets/nextjslogo.png" },
     { title: 'Card 2', content: 'Content for Card 2' },
     { title: 'Card 3', content: 'Content for Card 3' }
   ];
