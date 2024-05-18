@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { MypersonalworksComponent } from "../mypersonalworks/mypersonalworks.component";
 
 
 export interface myprojects {
@@ -16,16 +17,15 @@ export interface myprojects {
 
 
 @Component({
-  selector: 'app-myprojects',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './myprojects.component.html',
-  styleUrl: './myprojects.component.css'
+    selector: 'app-myprojects',
+    standalone: true,
+    templateUrl: './myprojects.component.html',
+    styleUrl: './myprojects.component.css',
+    imports: [CommonModule, MypersonalworksComponent]
 })
-export class MyprojectsComponent {
-  
+export class MyprojectsComponent {  
   heading = ['My Projects']
-myproject: any;
+  myproject: any;
   
 
 }
