@@ -11,6 +11,7 @@
 <div class="row justify-content-center">
     <div class="col-md-4 mb-3" *ngFor="let cardData of cardData">
         <div class="card">
+            <!-- <img height="600" width="600" [lazyLoad]="image3"> -->
             <img src="{{cardData.imageUrl}}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fw-bold">{{cardData.title}}</h5>

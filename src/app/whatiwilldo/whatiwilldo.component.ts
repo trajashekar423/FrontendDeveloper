@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { LazyLoadImageModule} from 'ng-lazyload-image';
 
 
 
@@ -12,7 +13,7 @@ export interface Card {
 @Component({
   selector: 'app-whatiwilldo',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule,LazyLoadImageModule],
   templateUrl: './whatiwilldo.component.html',
   styleUrl: './whatiwilldo.component.css'
 })
@@ -35,5 +36,9 @@ export class WhatiwilldoComponent {
     },
    
   ];
+
+  image1="https://www.mindinventory.com/blog/wp-content/uploads/2022/10/frontend-development-tools.png";
+  image2="https://www.noupe.com/wp-content/uploads/2020/10/adobe-figma.jpg";
+  image3="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyzEyAoZifdY7syVmGZoDu4ptHjioYBIeWzcBZEkH0Ug&s";
 imageUrl: any;
 }
