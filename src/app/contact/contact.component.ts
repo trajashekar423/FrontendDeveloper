@@ -28,7 +28,7 @@ display: any;
 moveMap($event: google.maps.MapMouseEvent|google.maps.IconMouseEvent) {
 throw new Error('Method not implemented.');
 }
-  center: google.maps.LatLngLiteral = { lat: -34.397, lng: 150.644 };
+  center: google.maps.LatLngLiteral = { lat: 17.387140, lng: 78.491684 };
   zoom = 8;
   options: google.maps.MapOptions = {
     mapTypeId: 'hybrid',
