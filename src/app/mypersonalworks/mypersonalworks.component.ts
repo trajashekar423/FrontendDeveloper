@@ -12,7 +12,7 @@ export class MypersonalworksComponent {
 
   cards = [
     { title: 'Nextjs/Redux', content: 'My first Nextjs Project with Reduxtoolkit store demo',url:"https://nextjsreduxstore-demo.vercel.app/",logo:"assets/nextjslogo.png" },
-    { title: 'Nextjs/Redux', content: 'My Demoproject Nextjs Project with Reduxtoolkit store demo',url:"https://nextjswithredux-fulltemplate.vercel.app/",logo:"assets/nextjslogo.png" },
+    { title: 'Nextjs/Redux', content: 'My Demo project Nextjs with Reduxtoolkit store',url:"https://nextjswithredux-fulltemplate.vercel.app/",logo:"assets/nextjslogo.png" },
     { title: 'Card 3', content: 'Content for Card 3' }
   ];
 
