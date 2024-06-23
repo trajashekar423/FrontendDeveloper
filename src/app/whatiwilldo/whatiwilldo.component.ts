@@ -21,7 +21,7 @@ export class WhatiwilldoComponent {
   cardData= [
     {
       title: 'Frontend Development',
-      description: 'Using Html, css, Scss, Bootstrap, Javscript, Jquery, Angular, Typescript, NGRX',
+      description: 'Using Html, css, Scss, Bootstrap, Javscript, Jquery, Angular, React, Nextjs, Redux',
       imageUrl: 'https://www.mindinventory.com/blog/wp-content/uploads/2022/10/frontend-development-tools.png'
     },
     {
