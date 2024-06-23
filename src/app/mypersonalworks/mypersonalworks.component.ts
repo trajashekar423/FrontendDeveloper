@@ -24,8 +24,9 @@ export class MypersonalworksComponent {
 
     { title: 'Truck Tracker', content: 'Good inward & Outward',url:"https://www.figma.com/design/anGhPcmrqZQBuD7PLwDwKp/truck-tracker-new-template?t=C6llNQqyZQWNrjTq-0",logo:"assets/figma.png" },
 
-    { title: 'Pladis', content: 'Good inward & Outward',url:"https://www.figma.com/design/pQ1FoW8TzEafxb9tyu736z/pladis?node-id=0-1&t=wYmq7qVLMtoSfoZo-0",logo:"assets/figma.png" },
-    { title: 'House of juice', content: 'Good inward & Outward',url:"https://www.figma.com/design/e2Q7gjzUTRr2wUmj6RoNVe/houseofjuice?node-id=0-1&t=6Sc9S4DDEwF5kfue-1",logo:"assets/juice.png" },
+    { title: 'Pladis', content: 'Cookies',url:"https://www.figma.com/design/pQ1FoW8TzEafxb9tyu736z/pladis?node-id=0-1&t=wYmq7qVLMtoSfoZo-0",logo:"assets/pladis.png" },
+    { title: 'House of juice', content: 'Ecommerce Juice shop',url:"https://www.figma.com/design/e2Q7gjzUTRr2wUmj6RoNVe/houseofjuice?node-id=0-1&t=6Sc9S4DDEwF5kfue-1",logo:"assets/juice.png" },
+    { title: 'Mars Project Gallery', content: 'Ecommerce Juice shop',url:"https://www.figma.com/design/N30OIYzHMAajw66hgOEwXU/mars-brands?node-id=0-1&t=Gq4PFT3QiWeqkvu4-1",logo:"assets/mars.png" },
     
   ];
 

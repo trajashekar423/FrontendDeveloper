@@ -3,7 +3,7 @@
       <div class="col-md-3 myprojects mb-4" *ngFor="let card of cards">
         <div class="card text-center">
             <img src="{{card.logo}}" class="card-img-top" alt="nextlogo">
-          <div class="card-header text-center p-2">{{ card.title }}</div>
+          <div class="card-header text-center p-2 fw-bold">{{ card.title }}</div>
           <div class="card-body">
             <p class="card-text">{{ card.content }}</p>
             <a href="{{card.url}}" class="btn btn-warning">check demo</a>
