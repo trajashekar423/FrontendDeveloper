@@ -17,6 +17,7 @@ export class MypersonalworksComponent {
     { title: 'Nextjs/Redux', content: 'My Demo project Nextjs with Reduxtoolkit store',url:"https://nextjswithredux-fulltemplate.vercel.app/",logo:"assets/nextjslogo.png" },
     
     { title: 'Reactjs/Addtocart', content: 'Addtocart Demo project Reactjs with Reduxtoolkit ',url:"https://myfirstaddtocart.vercel.app/",logo:"assets/reactjs.png" },
+    { title: 'Miracoli', content: 'Online Pasta Sauce ',url:"https://www.miracoli.de/index.html",logo:"assets/miracolilogo.png" },
     { title: 'Nextjs/Redux', content: 'GL Request Form',url:"https://glrequestform.vercel.app/",logo:"assets/nextjslogo.png" },
     { title: 'Reactjs/Todolist', content: 'Reactjs Todolist',url:"https://seemly-act.surge.sh/",logo:"assets/reactjs.png" },
     { title: 'Task Management', content: 'Task Management webapp',url:"https://www.figma.com/design/ja8uwQg1JxQqHfKEs6RfEn/create-task?node-id=0-1&t=GDdvSwCp1jTPXa0e-0",logo:"assets/figma.png" },

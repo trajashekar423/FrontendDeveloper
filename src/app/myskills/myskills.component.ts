@@ -59,8 +59,8 @@ export class MyskillsComponent implements OnInit {
     },
 
     { 
-      codetitle:"NGRX",
-      imageUrl: 'assets/ngrx.png',
+      codetitle:"Devops",
+      imageUrl: 'assets/devopslogo.png',
       url:"#" 
     },
 
